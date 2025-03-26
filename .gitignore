@@ -1,0 +1,15 @@
+/.DS_Store
+/cal_sqlite_to_notion.py
+/cal_to_sqlite_to_md.py
+/doit.sh
+/events.db
+/events2.db
+/last.log
+/personal_credentials.json
+/personal_token.json
+/settings.py
+/sqlite_cal_editor.py
+/sqlite_cal_make_event_id_table.py
+/upcoming_events.md
+/work_credentials.json
+/work_token.json
