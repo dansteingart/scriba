@@ -1,6 +1,6 @@
-# Calendar to Notion Sync Tool
+# scriba
 
-This project is a sophisticated calendar synchronization tool that fetches events from multiple Google Calendar accounts, consolidates duplicate events, and syncs them to a Notion database. It's designed to handle both personal and work calendars while avoiding duplicate entries.
+This project is a  calendar synchronization tool that fetches events from multiple Google Calendar accounts, consolidates duplicate events, and syncs them to a Notion database. It's designed to handle both personal and work calendars while avoiding duplicate entries.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is a sophisticated calendar synchronization tool that fetches event
 
 ## Project Structure
 
-The project consists of several key components:
+The project consists of:
 
 1. **Calendar to SQLite (`cal_to_sqlite_to_md_comp.py`)**
    - Fetches events from Google Calendar
@@ -51,6 +51,7 @@ The project consists of several key components:
    - Set up environment variables:
      - `NOTION_API_KEY`
      - `NOTION_DATABASE_ID`
+     - (or put then in `settings.py`)
 
 ## Usage
 
