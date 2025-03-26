@@ -12,11 +12,11 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google.auth.transport.requests import Request
+import settings
 
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
-DB_FILE = 'events2.db'
-CREDENTIALS_FOLDER = '/Users/dan/scripts/cal_to_notion'
-
+DB_FILE = settings.db_file
+CREDENTIALS_FOLDER = settings.creds_folder
 # -----------------------------
 # Phase 1: Pull All Events into raw_events
 # -----------------------------
